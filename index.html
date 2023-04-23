@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>ChopShop</title>
 		<link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bruno Ace SC">
 	</head>
 	<body>
 		<header class="header-container">
@@ -16,26 +17,44 @@
 				<img src="./image/logo-check.png" alt="" />
 				<li><a href="#">Get in Touch</a></li>
 				<li><a href="#">Bag</a></li>
-				<li><a href="#">Order Now</a></li>
+				<li><a href="#burgerType">Order Now</a></li>
 			</ul>
 		</header>
 		<main>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum error
-				provident officiis ea dignissimos, explicabo reiciendis deserunt sint
-				impedit temporibus praesentium? Deserunt iure impedit nesciunt suscipit
-				cupiditate obcaecati libero harum.
-			</p>
+            <img id="banner" src="./image/banner.png" alt="large picture of someone holding burger">
+            <div class="our-story">
+                <h2>Our Story</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum error
+                    provident officiis ea dignissimos, explicabo reiciendis deserunt sint
+                    impedit temporibus praesentium? Deserunt iure impedit nesciunt suscipit
+                    cupiditate obcaecati libero harum.
+                </p>
+            </div>
 			<section id="burgerType">
-				<h2>Make a burger of your choice</h2>
-				<img
-					class="burger-img"
-					src="./image/food1.png"
-					alt="a picture of burger"
-				/>
-				<button>Create</button>
+				<h3>Make a burger of your choice</h3>
+				<div class="checkout-container">
+					<div>
+						<img
+							class="burger-img"
+							src="./image/food1.png"
+							alt="a picture of burger"
+						/>
+					</div>
+					<div class="button-group">
+						<div>
+							<p>Cheese</p>
+							<button id="plus">+</button>
+							<button id="minus">-</button>
+						<button id="create-burger-button">Create</button>
+					</div>
+				</div>
 			</section>
 		</main>
-		<footer></footer>
+		<footer>
+            <div class="footer-container">
+                <p>&#169; 2023 ChopShop</p>
+              </div>
+        </footer>
 	</body>
 </html>

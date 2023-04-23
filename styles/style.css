@@ -26,11 +26,49 @@ section {
 }
 
 h2{
-    margin-left: 35%;
     padding-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .burger-img{
-    display: block;
     margin-bottom: 20px;
+}
+
+
+.checkout-container{
+    display: flex;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    display: inline-flex;
+}
+
+#banner {
+    margin-left: 0%;
+}
+
+.our-story {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+body {
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+
+.footer-container {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 100px;
 }
