@@ -1,7 +1,8 @@
 "use strict";
 
-function BurgerMaker() {
-	this.patter;
+function BurgerMaker(bread, patty, cheese, topping) {
+	this.bread;
+	this.patty;
 	this.topping;
 	this.cheese;
 }
