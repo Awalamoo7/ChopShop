@@ -26,5 +26,11 @@ section {
 }
 
 h2{
-    margin-left: 40%;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+
+.burger-img{
+    display: block;
+    margin-bottom: 20px;
 }
