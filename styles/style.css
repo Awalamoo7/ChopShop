@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
 .header-container{
     background-color: aquamarine;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .list-content {
@@ -33,6 +38,7 @@ h2{
 h3 {
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .burger-img{
@@ -54,13 +60,14 @@ p {
 }
 
 #banner {
-    margin-left: 0%;
+    margin: auto;
     width: 100%;
 }
 
 .our-story {
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 50px;
 }
 
 body {
